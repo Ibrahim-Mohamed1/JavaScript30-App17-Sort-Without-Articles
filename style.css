@@ -22,7 +22,10 @@ body {
 #bands li {
     border-bottom: 1px solid #efefef;
     padding: 20px;
-  }
+}
+#bands li:last-child {
+    border-bottom: 0;
+}
 .span{
     font-size: 30px;
     margin-left: 10px;
