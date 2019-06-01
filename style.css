@@ -17,7 +17,6 @@ body {
     margin: auto;
     padding: 0;
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
-    max-width: 90%;
 }
 #bands li {
     border-bottom: 1px solid #efefef;
@@ -43,5 +42,8 @@ a{
 @media (pointer:none), (pointer:coarse) {
     .span{
         font-size: 50px;
+    }
+    #bands {
+        width: 80%;
     }
 }
