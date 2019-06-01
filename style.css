@@ -19,6 +19,10 @@ body {
     padding: 0;
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
 }
+#bands li {
+    border-bottom: 1px solid #efefef;
+    padding: 20px;
+  }
 .span{
     font-size: 30px;
     margin-left: 10px;
