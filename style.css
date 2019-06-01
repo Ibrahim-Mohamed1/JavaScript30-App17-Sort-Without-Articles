@@ -9,3 +9,8 @@ a{
 .title{
     display: none;
 }
+@media (pointer:none), (pointer:coarse) {
+    .span{
+        font-size: 50px;
+    }
+}
